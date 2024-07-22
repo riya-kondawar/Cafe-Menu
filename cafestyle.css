@@ -1,0 +1,125 @@
+/* 
+.classname{}
+heading{}
+background-color: blue; here bgcolour is 'property' & blue is 'value'
+selector{
+    property: propertyValue;
+    }
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); */
+    background-image: url(https://images.pexels.com/photos/585753/pexels-photo-585753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    font-family: sans-serif;
+    padding: 10px;
+    color: white;
+}
+
+.menu {
+    /* width: 80%; */
+    background-color: rgba(222, 184, 135, 0.445);
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 2000px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Impact, serif;
+}
+.established {
+    font-style: italic;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+    font-family: "Playwrite DK Loopet", cursive, serif;
+}
+.drink,
+.desert {
+    margin: 0 20px;
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+h3 {
+    font-family: "Playwrite DK Loopet", cursive, serif;
+    margin: 10px;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+hr {
+    width: 100px;
+    height: 1px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.item{
+    /* margin: 5px 0; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.flavor,
+.dessert, 
+.price {
+    margin: 2px 30px;
+} 
+/*.bottom-line {
+    margin-top: 25px;
+}  */
+
+
+/* FOOTER */
+
+footer p{
+    margin-top: 20px;
+    font-family: "Aclonica", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.address {
+    margin: 2px;
+}
+
+a {
+    color: black;
+    margin: 2px;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(53, 34, 34);
+}
+
+a:active {
+    color: rgb(53, 34, 34);
+}
+
